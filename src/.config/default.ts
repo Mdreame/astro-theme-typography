@@ -5,7 +5,7 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
+    title: '活版印字1',
     subtitle: 'Typography',
     author: 'Moeyua',
     description: 'Rediscory the beauty of typography',
@@ -55,7 +55,7 @@ export const defaultConfig: ThemeConfig = {
     ],
   },
   appearance: {
-    theme: 'system',
+    theme: 'light',
     locale: 'zh-cn',
     colorsLight: {
       primary: '#2e405b',
