@@ -16,7 +16,7 @@ const posts = await ghostClient.posts
     <body>
 
         {
-            posts.map((post) => (
+            posts.map((post: { slug: any; title: unknown; }) => (
                 <a href={`/post/${post.slug}`}>
                     <h1> {post.title} </h1>
                 </a>
