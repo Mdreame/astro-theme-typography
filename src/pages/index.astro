@@ -1,0 +1,26 @@
+---
+import { ghostClient } from '../lib/ghost';
+const posts = await ghostClient.posts
+    .browse({
+        limit: 'all',
+    })
+    .catch((err: Error) => {
+        console.error(err);
+    });
+---
+
+<html lang="en">
+    <head>
+        <title>Astro + Ghost 👻</title>
+    </head>
+    <body>
+
+        {
+            posts.map((post: any) => (
+                <a href={`/post/${post.slug}`}>
+                    <h1> {post.title} </h1>
+                </a>
+            ))
+        }
+    </body>
+</html>
