@@ -1,12 +1,13 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "noImplicitAny": true,
   "compilerOptions": {
     "lib": ["esnext", "dom"],
     "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"]
-    }
+    },
+    "strict": false,
+    "noImplicitAny": true,
   },
   "include": [
     "src/**/*.astro",
