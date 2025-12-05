@@ -28,6 +28,10 @@ export const defaultConfig: ThemeConfig = {
         name: 'mastodon',
         href: 'https://github.com/moeyua/astro-theme-typography',
       },
+      {
+        name: 'email',
+        href: 'mailto:mdreame@qq.com',
+      }
     ],
     navLinks: [
       {
@@ -81,6 +85,9 @@ export const defaultConfig: ThemeConfig = {
   },
   comment: {
     // disqus: { shortname: "typography-astro" },
+    twikoo: {
+      envId: 'https://twikoo-comment-at-mdreame-work.netlify.app/.netlify/functions/twikoo'
+    }
   },
   analytics: {
     googleAnalyticsId: '',

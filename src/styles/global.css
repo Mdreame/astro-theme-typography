@@ -20,3 +20,8 @@ html {
   --at-apply: 'ease-in-out duration-300ms';
   --at-apply: 'hover:(c-background bg-primary decoration-primary)';
 }
+
+#twikoo {
+    max-width: 65ch;
+    background-color: none;
+}
