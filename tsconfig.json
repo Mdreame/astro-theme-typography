@@ -6,7 +6,6 @@
     "paths": {
       "~/*": ["src/*"]
     },
-    "strict": false,
     "noImplicitAny": true,
   },
   "include": [

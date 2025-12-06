@@ -1,13 +1,12 @@
 ---
 import { ghostClient } from '../../lib/ghost';
 export async function getStaticPaths() {
-    const posts: any[] = await ghostClient.posts
+    const posts = await ghostClient.posts
         .browse({
             limit: 'all',
         })
-        .catch((err: Error) => {
+        .catch((err) => {
             console.error(err);
-            return [] as any[];
         });
     return posts.map((post) => {
         return {

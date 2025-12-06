@@ -1,25 +1,26 @@
 ---
-import { ghostClient } from '../lib/ghost'
-const posts: any[] = await ghostClient.posts.browse({
-    limit: 'all',
-  })
-  .catch((err: Error) => {
-    console.error(err)
-    return [] as any[]
-  })
+import { ghostClient } from '../lib/ghost';
+const posts: = await ghostClient.posts
+    .browse({
+        limit: 'all',
+    })
+    .catch((err) => {
+        console.error(err);
+    });
 ---
 
 <html lang="en">
-  <head>
-    <title>Astro + Ghost 👻</title>
-  </head>
-  <body>
-    {
-      posts.map((post: {slug: string, title: string}) => (
-        <a href={`/post/${post.slug}`}>
-          <h1> {post.title} </h1>
-        </a>
-      ))
-    }
-  </body>
+    <head>
+        <title>Astro + Ghost 👻</title>
+    </head>
+    <body>
+
+        {
+            posts.map((post) => (
+                <a href={`/post/${post.slug}`}>
+                    <h1> {post.title} </h1>
+                </a>
+            ))
+        }
+    </body>
 </html>
