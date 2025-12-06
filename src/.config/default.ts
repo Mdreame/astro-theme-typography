@@ -86,7 +86,7 @@ export const defaultConfig: ThemeConfig = {
   comment: {
     // disqus: { shortname: "typography-astro" },
     twikoo: {
-      envId: 'https://twikoo-comment-at-mdreame-work.netlify.app/.netlify/functions/twikoo'
+      envId: 'https://twikoo.mdreame.life/'
     }
   },
   analytics: {
