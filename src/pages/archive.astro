@@ -41,11 +41,10 @@ function getListItem(post: Post): ListItem {
           <h2 class="post-title">{year}</h2>
           <ul class="pl-6" flex="~ col gap-4">
             {posts.map(({ title, href, date }) => (
-              <li>
-                <h3 class="post-title">
-                  <a href={href}>{title}</a>
-                </h3>
-                <time>{date}</time>
+              <li style="list-style: circle;">
+                <p >
+                  <a href={href} style="text-decoration: none;">{title}</a> &nbsp;<time style="font-size: 0.875em;">{date}</time>
+                </p>
               </li>
             ))}
           </ul>
