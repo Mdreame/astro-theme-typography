@@ -5,33 +5,30 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字1',
-    subtitle: 'Typography',
-    author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
-    website: 'https://astro-theme-typography.vercel.app/',
+    title: '活版印字',
+    subtitle: 'Mdreame',
+    author: 'Mdreame',
+    description: '文字代表思想与情感的流动',
+    website: 'https://blog.mdreame.life/',
     pageSize: 5,
     socialLinks: [
       {
-        name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        name: 'twitter',
+        href: 'https://x.com/mdreame_xu',
+      },
+      {
+        name: 'mastodon',
+        href: 'https://mastodon.social/@mdreame',
+      },
+      {
+        name: 'email',
+        href: 'mailto:mdreame@qq.com',
       },
       {
         name: 'rss',
         href: '/atom.xml',
       },
-      {
-        name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'email',
-        href: 'mailto:mdreame@qq.com',
-      }
+      
     ],
     navLinks: [
       {
@@ -76,7 +73,7 @@ export const defaultConfig: ThemeConfig = {
     },
   },
   seo: {
-    twitter: '@moeyua13',
+    twitter: '@mdreame_xu',
     meta: [],
     link: [],
   },
