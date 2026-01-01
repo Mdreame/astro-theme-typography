@@ -85,20 +85,20 @@ export const defaultConfig: ThemeConfig = {
     // twikoo: {
     //   envId: 'https://twikoo.mdreame.life/'
     // },
-    giscus: {
-      repo: 'mdreame/astro-theme-typography',
-      repoId: 'R_kgDOQiKXmw',
-      category: 'General',
-      categoryId: 'DIC_kwDOQiKXm84C0dGw',
-      mapping: 'pathname',
-      strict: '0',
-      reactionsEnabled: '1',
-      emitMetadata: '1',
-      inputPosition: 'top',
-      theme: 'light',
-      lang: 'zh-CN',
-      loading: 'lazy'
-    },
+    // giscus: {
+    //   repo: 'mdreame/astro-theme-typography',
+    //   repoId: 'R_kgDOQiKXmw',
+    //   category: 'General',
+    //   categoryId: 'DIC_kwDOQiKXm84C0dGw',
+    //   mapping: 'pathname',
+    //   strict: '0',
+    //   reactionsEnabled: '1',
+    //   emitMetadata: '1',
+    //   inputPosition: 'top',
+    //   theme: 'light',
+    //   lang: 'zh-CN',
+    //   loading: 'lazy'
+    // },
   },
   analytics: {
     googleAnalyticsId: '',
